@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0787845e3d87da468a61a05bb57a857, type: 3}
+  m_Name: LevelEditorSettings
+  m_EditorClassIdentifier: 
+  defaultFieldSize: {x: 16, y: 16}
+  tileSize: {x: 32, y: 32}
+  fieldRatio: 0.75
+  defaultLayerCount: 2
+  spritesMaterial: {fileID: 2100000, guid: 14fe4890cbfbcdb40b8d58c5f0449c5e, type: 2}
+  linesMaterial: {fileID: 2100000, guid: 17289c03763f22f45a51c5cc39a9d6b2, type: 2}
+  toolsetEditors:
+  - typePath: TileTool, Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
